@@ -1,0 +1,75 @@
+company:
+  full_name: 西安科技大学高新学院
+  variants:
+  - 科大高新
+  - 西安科大高新
+  - 高新学院
+  - 西安科技大学高新学院
+  - 西安王师傅装修
+  - 西安王师傅翻新
+  - 王师傅装修
+  - 西安王师傅装修工程有限公司
+apis:
+  deepseek:
+    name: DeepSeek
+    enabled: false
+    api_key: ${DEEPSEEK_API_KEY}
+    model: deepseek-chat
+    base_url: https://api.deepseek.com/v1/chat/completions
+    auth: bearer
+    key_url: https://platform.deepseek.com/api_keys
+  kimi:
+    name: Kimi
+    enabled: false
+    api_key: ${KIMI_API_KEY}
+    model: moonshot-v1-8k
+    base_url: https://api.moonshot.cn/v1/chat/completions
+    auth: bearer
+    key_url: https://platform.moonshot.cn/console/api-keys
+  qianwen:
+    name: 通义千问
+    enabled: false
+    api_key: ${DASHSCOPE_API_KEY}
+    model: qwen-plus
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+    auth: bearer
+    key_url: https://bailian.console.aliyun.com/?apiKey=1
+  wenxin:
+    name: 文心一言
+    enabled: false
+    api_key: ${WENXIN_API_KEY}
+    secret_key: ${WENXIN_SECRET_KEY}
+    model: ernie-speed-8k
+    auth: baidu_oauth
+    key_url: https://console.bce.baidu.com/ai/#/ai/wenxinworkshop/overview/index
+  zhipu:
+    name: 智谱AI
+    enabled: true
+    api_key: ${ZHIPU_API_KEY}
+    model: glm-4-flash
+    base_url: https://open.bigmodel.cn/api/paas/v4/chat/completions
+    auth: bearer
+    key_url: https://open.bigmodel.cn/usercenter/apikeys
+  doubao:
+    name: 豆包
+    enabled: false
+    api_key: ${DOUBAO_API_KEY}
+    model: "${DOUBAO_ENDPOINT_ID}"
+    base_url: https://ark.cn-beijing.volces.com/api/v3/chat/completions
+    auth: bearer
+    key_url: https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey
+  hunyuan:
+    name: 腾讯元宝/混元
+    enabled: true
+    api_key: ${HUNYUAN_API_KEY}
+    model: hunyuan-lite
+    base_url: https://api.hunyuan.cloud.tencent.com/v1/chat/completions
+    auth: bearer
+    key_url: https://console.cloud.tencent.com/hunyuan/start
+crawl:
+  prompt_template: 你知道{keyword}吗？请介绍一下。
+  temperature: 0.7
+  max_tokens: 1500
+  concurrent_workers: 4
+  retry_max: 2
+  screenshot_enabled: false

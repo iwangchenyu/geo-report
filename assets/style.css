@@ -1,0 +1,172 @@
+/* ============================================================
+   GEO 报表系统 - 共享基础样式
+   各页面在此之上叠加自己的布局/配色
+   ============================================================ */
+
+/* ---- Reset ---- */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+/* ---- Typography ---- */
+body{
+  font-family:'Inter','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif;
+  color:#1d2129;line-height:1.7;
+}
+
+/* ---- Buttons ---- */
+.btn{
+  padding:8px 18px;border-radius:8px;font-size:14px;font-weight:500;
+  border:none;cursor:pointer;transition:all 0.2s;
+  display:inline-flex;align-items:center;gap:6px;
+  text-decoration:none;line-height:1.4;white-space:nowrap;user-select:none;
+}
+.btn:active{transform:scale(0.97)}
+.btn:disabled{opacity:0.55;cursor:not-allowed;pointer-events:none}
+.btn-sm{padding:4px 10px;font-size:12px;border-radius:6px}
+.btn-primary{background:linear-gradient(135deg,#4f46e5,#6366f1);color:#fff;box-shadow:0 1px 2px rgba(79,70,229,0.25)}
+.btn-primary:hover{background:linear-gradient(135deg,#4338ca,#4f46e5);box-shadow:0 2px 8px rgba(79,70,229,0.3)}
+.btn-outline{background:#fff;color:#374151;border:1px solid #e5e7eb}
+.btn-outline:hover{background:#f3f4f6;border-color:#d1d5db}
+.btn-danger{color:#ef4444;background:#fff;border:1px solid #fecaca}
+.btn-danger:hover{background:#fef2f2;border-color:#fca5a5}
+.btn-success{background:#10b981;color:#fff;box-shadow:0 1px 2px rgba(16,185,129,0.25)}
+.btn-success:hover{background:#059669;box-shadow:0 2px 6px rgba(16,185,129,0.3)}
+.btn-warning{background:#f59e0b;color:#fff;box-shadow:0 1px 2px rgba(245,158,11,0.25)}
+.btn-warning:hover{background:#d97706;box-shadow:0 2px 6px rgba(245,158,11,0.3)}
+
+/* ---- Forms ---- */
+.form-group{margin-bottom:15px}
+.form-group label{display:block;font-size:12px;font-weight:600;color:#475569;margin-bottom:5px}
+.form-group input,
+.form-group textarea,
+.form-group select{
+  width:100%;padding:8.5px 12px;border:1px solid #d1d5db;border-radius:8px;
+  font-size:13px;outline:none;font-family:inherit;color:#334155;
+  background:#fff;transition:border-color 0.18s,box-shadow 0.18s;
+}
+.form-group textarea{resize:vertical;min-height:60px}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+  border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,0.1);
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder{color:#cbd5e1}
+.form-group .hint{font-size:11px;color:#94a3b8;margin-top:4px}
+.form-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:22px}
+
+/* ---- Tables ---- */
+table{width:100%;border-collapse:collapse}
+thead th{
+  text-align:left;padding:10px 14px;background:#f8fafc;color:#64748b;
+  font-size:11.5px;font-weight:600;white-space:nowrap;
+  text-transform:uppercase;letter-spacing:0.04em;border-bottom:2px solid #e2e8f0;
+}
+thead th:first-child{border-radius:8px 0 0 0}
+thead th:last-child{border-radius:0 8px 0 0}
+tbody td{padding:12px 14px;border-bottom:1px solid #f1f5f9;font-size:13.5px;color:#334155;vertical-align:middle}
+tbody tr{transition:background 0.15s}
+tbody tr:hover{background:#f8fafc}
+tbody tr:last-child td{border-bottom:none}
+.table-wrap{overflow-x:auto}
+
+/* ---- Match badge ---- */
+.match-badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:600;padding:3px 10px;border-radius:12px}
+.match-badge.yes,.match-badge.match-yes{background:#d1fae5;color:#065f46}
+.match-badge.no,.match-badge.match-no{background:#fee2e2;color:#991b1b}
+.match-badge.partial{background:#fef3c7;color:#92400e}
+.match-badge .dot,.match-dot{width:6px;height:6px;border-radius:50%}
+.match-badge.yes .dot,.match-yes .match-dot{background:#10b981}
+.match-badge.no .dot,.match-no .match-dot{background:#ef4444}
+
+/* ---- Tags ---- */
+.tag{display:inline-block;font-size:11px;padding:2.5px 8px;border-radius:12px;font-weight:500}
+.tag-manual,.kw-tag.manual{background:#dbeafe;color:#1d4ed8}
+.tag-ai,.kw-tag.ai{background:#fef3c7;color:#b45309}
+.tag-sm{font-size:10px;padding:1.5px 6px}
+
+/* ---- Hit tags ---- */
+.hit-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.hit-tag{font-size:11px;background:#d1fae5;color:#065f46;padding:2px 10px;border-radius:10px;font-weight:500}
+
+/* ---- Search input ---- */
+.search-wrap{position:relative;display:inline-flex}
+.search-wrap svg{position:absolute;left:9px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:#94a3b8;pointer-events:none}
+.search-input{
+  border:1px solid #d1d5db;border-radius:8px;padding:6.5px 12px 6.5px 30px;
+  font-size:13px;width:220px;outline:none;transition:border-color 0.18s,box-shadow 0.18s;
+}
+.search-input:focus{border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,0.1)}
+.search-input::placeholder{color:#cbd5e1}
+
+/* ---- Platform tabs ---- */
+.platform-tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.platform-tab{
+  font-size:12px;border:1px solid #e2e8f0;border-radius:8px;padding:5px 12px;
+  cursor:pointer;display:inline-flex;align-items:center;gap:4px;
+  background:#fff;transition:all 0.18s;color:#475569;
+}
+.platform-tab:hover{border-color:#a5b4fc;background:#fafafe}
+.platform-tab.active{background:#eef2ff;border-color:#6366f1;color:#4338ca;font-weight:500}
+.platform-tab .count{font-size:11px;color:#9ca3af}
+
+/* ---- Filter select ---- */
+select.filter-select{
+  padding:6.5px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:13px;
+  outline:none;color:#475569;background:#fff;cursor:pointer;transition:border-color 0.18s;
+}
+select.filter-select:focus{border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,0.1)}
+
+/* ---- Toast notification ---- */
+.toast{
+  position:fixed;top:24px;left:50%;transform:translateX(-50%);
+  background:#1e293b;color:#fff;padding:10px 26px;border-radius:10px;
+  font-size:13.5px;z-index:200;opacity:0;pointer-events:none;
+  box-shadow:0 10px 40px rgba(0,0,0,0.2);
+  transition:opacity 0.2s,transform 0.2s;
+}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---- Modal ---- */
+.modal-overlay{
+  display:none;position:fixed;inset:0;background:rgba(15,23,42,0.45);
+  z-index:100;justify-content:center;align-items:center;
+  backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);
+}
+.modal-overlay.show{display:flex}
+.modal{
+  background:#fff;border-radius:14px;padding:28px 30px;width:90%;max-width:520px;
+  box-shadow:0 25px 80px rgba(0,0,0,0.18);max-height:85vh;overflow-y:auto;
+  animation:modalIn 0.2s ease-out;
+}
+.modal.wide{max-width:750px}
+.modal h3{font-size:16px;font-weight:600;margin-bottom:22px;color:#1e293b}
+@keyframes modalIn{from{opacity:0;transform:translateY(12px) scale(0.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+
+/* ---- Empty state ---- */
+.empty-state{text-align:center;padding:48px 24px;color:#94a3b8}
+
+/* ---- Status dots ---- */
+.status-dot{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle}
+.status-dot.running{background:#f59e0b;animation:pulse 1.2s ease-in-out infinite}
+.status-dot.done{background:#10b981}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.35}}
+
+/* ---- Shared link ---- */
+.share-url{background:#f0f4ff;border-radius:8px;padding:8px 12px;font-family:monospace;font-size:12px;color:#4338ca;word-break:break-all;display:flex;align-items:center;justify-content:space-between;gap:8px}
+
+/* ---- Link blue ---- */
+.link-blue{color:#4f46e5;text-decoration:none;font-weight:500}
+.link-blue:hover{text-decoration:underline}
+
+/* ---- Sort icon ---- */
+.sort-icon{cursor:pointer;width:14px;height:14px;margin-left:4px;vertical-align:middle;opacity:0.5;transition:opacity 0.15s}
+.sort-icon:hover,.sort-icon.active{opacity:1}
+
+/* ---- Card (base) ---- */
+.card{background:#fff;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.06);padding:24px;transition:box-shadow 0.2s}
+.card:hover{box-shadow:0 4px 16px rgba(0,0,0,0.08)}
+
+/* ---- Section header ---- */
+.section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px}
+.section-header h3{font-size:17px;font-weight:600}

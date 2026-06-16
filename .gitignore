@@ -1,0 +1,32 @@
+# 数据文件
+data/report.db
+data/crawl.lock
+data/crawl.pid
+data/crawl_result.json
+data/.api_secret
+data/browser_profiles/
+data/.wenxin_token.json
+data/.admin_pass
+
+# 截图 & 调试
+data/screenshots/
+data/*.png
+*.png
+!assets/*.png
+
+# Playwright 测试残留
+.playwright-cli/
+
+# 临时文件
+0
+
+# 环境变量
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
