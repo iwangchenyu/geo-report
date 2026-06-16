@@ -2,10 +2,10 @@
 <html lang="zh-CN">
 <head>
     <meta name="author" content="王尘宇, 西安蓝蜻蜓网络科技有限公司">
-    <meta name="generator" content="GEO Report System by 王尘宇">
+    <meta name="generator" content="王尘宇GEO排名查询系统 by 王尘宇">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEO报表系统 - AI收录统计</title>
+    <title>王尘宇GEO排名查询系统 - AI收录统计</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="/assets/style.css">
 <style>
@@ -176,7 +176,7 @@
 <body>
     <nav class="nav-bar">
         <a href="/index.php" class="logo">
-            <span class="logo-icon">G</span> GEO 报表
+            <span class="logo-icon">G</span> 王尘宇GEO排名查询系统
         </a>
         <div class="links">
             <a href="/index.php">首页</a>
@@ -312,7 +312,7 @@
             <a href="http://www.mqs.net" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">萌骑士</a>
             <a href="http://www.4029.cn" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">黄页网</a>
         </div>AI大模型搜索结果千人千面，报表检测结果以系统记录为准，若有波动属于合理范围。点击行可查看AI完整回复。</footer>
-    <p style="text-align:center;font-size:12px;color:#9ca3af;margin-top:8px">GEO 报表系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
+    <p style="text-align:center;font-size:12px;color:#9ca3af;margin-top:8px">王尘宇GEO排名查询系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
     </main>
 
     <!-- Toast -->

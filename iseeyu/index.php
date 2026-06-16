@@ -11,7 +11,7 @@ $tab = $_GET['tab'] ?? 'reports';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="<?= csrf_token() ?>">
-    <title>GEO报表系统 - 管理后台</title>
+    <title>王尘宇GEO排名查询系统 - 管理后台</title>
     <link rel="stylesheet" href="/assets/style.css">
 <style>
         *{margin:0;padding:0;box-sizing:border-box}
@@ -1180,6 +1180,6 @@ $tab = $_GET['tab'] ?? 'reports';
     <?php endif; ?>
     </script>
 
-    <div class="app-footer">GEO 报表系统 &copy; 2026 &nbsp;|&nbsp; <a href="http://www.wangchenyu.com" target="_blank">王尘宇</a> &nbsp;|&nbsp; 西安蓝蜻蜓网络科技有限公司 &nbsp;|&nbsp; <a href="https://github.com/iwangchenyu/wangchenyu-geo-editor" target="_blank">GitHub</a></div>
+    <div class="app-footer">王尘宇GEO排名查询系统 &copy; 2026 &nbsp;|&nbsp; <a href="http://www.wangchenyu.com" target="_blank">王尘宇</a> &nbsp;|&nbsp; 西安蓝蜻蜓网络科技有限公司 &nbsp;|&nbsp; <a href="https://github.com/iwangchenyu/wangchenyu-geo-editor" target="_blank">GitHub</a></div>
 </body>
 </html>

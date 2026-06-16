@@ -74,7 +74,7 @@ $allKeywords = $pdo->query("SELECT name FROM keywords ORDER BY id")->fetchAll(PD
 <html lang="zh-CN">
 <head>
     <meta name="author" content="王尘宇, 西安蓝蜻蜓网络科技有限公司">
-    <meta name="generator" content="GEO Report System by 王尘宇">
+    <meta name="generator" content="王尘宇GEO排名查询系统 by 王尘宇">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GEO分析 — AI品牌可见度深度分析</title>
@@ -209,7 +209,7 @@ $allKeywords = $pdo->query("SELECT name FROM keywords ORDER BY id")->fetchAll(PD
 <body>
     <nav class="nav-bar">
         <a href="/index.php" class="logo">
-            <span class="logo-icon">G</span> GEO 报表
+            <span class="logo-icon">G</span> 王尘宇GEO排名查询系统
         </a>
         <div class="links">
             <a href="/index.php">首页</a>
@@ -330,8 +330,8 @@ $allKeywords = $pdo->query("SELECT name FROM keywords ORDER BY id")->fetchAll(PD
             <a href="http://www.qro.cn" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">QRO</a>
             <a href="http://www.mqs.net" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">萌骑士</a>
             <a href="http://www.4029.cn" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">黄页网</a>
-        </div>GEO 报表系统 · AI大模型品牌曝光收录深度分析</footer>
-    <p style="text-align:center;font-size:12px;color:#9ca3af;margin-top:8px">GEO 报表系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
+        </div>王尘宇GEO排名查询系统 · AI大模型品牌曝光收录深度分析</footer>
+    <p style="text-align:center;font-size:12px;color:#9ca3af;margin-top:8px">王尘宇GEO排名查询系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
 
     <script>
     // ===== 实时分析 JS =====

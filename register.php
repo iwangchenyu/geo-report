@@ -30,7 +30,7 @@ if (member_logged_in()) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册会员 - GEO报表系统</title>
+    <title>注册会员 - 王尘宇GEO排名查询系统</title>
     <link rel="stylesheet" href="/assets/style.css">
 <style>
         *{margin:0;padding:0;box-sizing:border-box}
@@ -56,7 +56,7 @@ if (member_logged_in()) {
 <body>
     <div style="text-align:center;padding:20px 0 0">
         <a href="/index.php" style="text-decoration:none;font-size:20px;font-weight:700;color:#1a1a2e">
-            <span style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#4f46e5,#818cf8);color:#fff;font-size:13px;margin-right:8px;vertical-align:middle">G</span>GEO 报表
+            <span style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#4f46e5,#818cf8);color:#fff;font-size:13px;margin-right:8px;vertical-align:middle">G</span>王尘宇GEO排名查询系统
         </a>
     </div>
 
@@ -76,6 +76,6 @@ if (member_logged_in()) {
         <?php endif; ?>
         <p class="links">已有账号？<a href="/member/login.php">立即登录</a> &nbsp;|&nbsp; <a href="/index.php">返回首页</a></p>
     </div>
-    <p style="text-align:center;margin-top:16px;font-size:12px;color:#9ca3af">GEO 报表系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
+    <p style="text-align:center;margin-top:16px;font-size:12px;color:#9ca3af">王尘宇GEO排名查询系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
 </body>
 </html>

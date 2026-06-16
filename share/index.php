@@ -32,7 +32,7 @@ if ($error_msg): ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEO报表 - 分享链接</title>
+    <title>王尘宇GEO排名查询系统 - 分享链接</title>
     <link rel="stylesheet" href="/assets/style.css">
 <style>
         *{margin:0;padding:0;box-sizing:border-box}
@@ -51,7 +51,7 @@ if ($error_msg): ?>
     <p>请确认分享链接是否正确，或联系管理员获取有效的分享链接。</p>
     <p style="margin-top:16px"><a href="/index.php">返回首页</a></p>
 </div>
-<p style="text-align:center;margin-top:24px;font-size:12px;color:#9ca3af">GEO 报表系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
+<p style="text-align:center;margin-top:24px;font-size:12px;color:#9ca3af">王尘宇GEO排名查询系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
 </body>
 </html>
 <?php else: ?>
@@ -59,10 +59,10 @@ if ($error_msg): ?>
 <html lang="zh-CN">
 <head>
     <meta name="author" content="王尘宇, 西安蓝蜻蜓网络科技有限公司">
-    <meta name="generator" content="GEO Report System by 王尘宇">
+    <meta name="generator" content="王尘宇GEO排名查询系统 by 王尘宇">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEO报表 - AI收录详情</title>
+    <title>王尘宇GEO排名查询系统 - AI收录详情</title>
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         body{font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;background:#f5f6f8;color:#1d2129;line-height:1.7;min-height:100vh}
@@ -150,8 +150,8 @@ if ($error_msg): ?>
         <?php endif; ?>
     </div>
     
-    <footer>数据由 GEO 报表系统自动采集 · AI大模型搜索结果千人千面，以系统记录为准</footer>
-    <p style="text-align:center;margin-top:16px;font-size:12px;color:#9ca3af">GEO 报表系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
+    <footer>数据由 王尘宇GEO排名查询系统自动采集 · AI大模型搜索结果千人千面，以系统记录为准</footer>
+    <p style="text-align:center;margin-top:16px;font-size:12px;color:#9ca3af">王尘宇GEO排名查询系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
 </body>
 </html>
 <?php endif; ?>

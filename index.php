@@ -34,10 +34,10 @@ $matchRate = $totalReports > 0 ? round($totalMatched / $totalReports * 100, 1) :
 <html lang="zh-CN">
 <head>
     <meta name="author" content="王尘宇, 西安蓝蜻蜓网络科技有限公司">
-    <meta name="generator" content="GEO Report System by 王尘宇">
+    <meta name="generator" content="王尘宇GEO排名查询系统 by 王尘宇">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEO报表 — AI品牌可见度监测与智能分析平台</title>
+    <title>王尘宇GEO排名查询系统 — AI品牌可见度监测与智能分析平台</title>
     <link rel="stylesheet" href="/assets/style.css">
 <style>
         :root {
@@ -179,7 +179,7 @@ $matchRate = $totalReports > 0 ? round($totalMatched / $totalReports * 100, 1) :
 <body>
     <nav class="nav-bar">
         <a href="#hero" class="logo">
-            <span class="logo-icon">G</span> GEO 报表
+            <span class="logo-icon">G</span> 王尘宇GEO排名查询系统
         </a>
         <div class="links">
             <a href="#features">功能</a>
@@ -200,7 +200,7 @@ $matchRate = $totalReports > 0 ? round($totalMatched / $totalReports * 100, 1) :
             <h1>监测品牌在<span class="gradient">AI大模型</span>中的可见度</h1>
             <p class="subtitle">
                 自动查询 DeepSeek、豆包、Kimi 等 8 大 AI 平台，检测品牌名在 AI 回复中是否被提及。
-                从关键词配置到数据看板，一站式 GEO 报表解决方案。
+                从关键词配置到数据看板，一站式 王尘宇GEO排名查询系统解决方案。
             </p>
             <div class="actions">
                 <a href="/dashboard.php" class="btn btn-primary">
@@ -380,7 +380,7 @@ $matchRate = $totalReports > 0 ? round($totalMatched / $totalReports * 100, 1) :
             <a href="http://www.mqs.net" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">萌骑士</a>
             <a href="http://www.4029.cn" target="_blank" style="font-size:12px;color:#6b7280;text-decoration:none;margin:0 8px">黄页网</a>
         </div>
-                <p>GEO 报表系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
+                <p>王尘宇GEO排名查询系统 &copy; 2026 | <a href="http://www.wangchenyu.com" target="_blank" style="color:#9ca3af">王尘宇</a> | 西安蓝蜻蜓网络科技有限公司</p>
     </footer>
 
     <div class="toast" id="toast"></div>
